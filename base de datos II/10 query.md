@@ -1,7 +1,7 @@
 1. Obtener todos los datos de los empleados.
 
 ```shell
-select * from emp
+        select * from emp
 ```
 
 2. Obtener todos los datos de los departamentos.
