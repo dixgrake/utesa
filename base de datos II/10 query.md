@@ -7,8 +7,7 @@ select * from emp
         select * from dept 
 ```
 3. Obtener todos los datos de los administrativos (su trabajo es, en ingles, 'CLERK')
-``shell
-```
+
 4. IDEM, pero ordenado por nombre.
 
 5. Obten el mismo resultado de la pregunta anterior, pero modificando la sentencia SQL.
