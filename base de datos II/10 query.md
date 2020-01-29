@@ -1,12 +1,16 @@
 1. Obtener todos los datos de los empleados.
-        ```shell
+
+```shell
 select * from emp
 ```
+
 2. Obtener todos los datos de los departamentos.
-        ``shell
+       
+```shell
         select * from dept 
 ```
-3. Obtener todos los datos de los administrativos (su trabajo es, en ingles, 'CLERK')
+
+3. Obtener todos los datos de los administrativos (su trabajo es, en ingles, 'CLERK').
 
 4. IDEM, pero ordenado por nombre.
 
