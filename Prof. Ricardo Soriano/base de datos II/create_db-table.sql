@@ -20,11 +20,11 @@ CREATE TABLE emp
     empno   INT NOT NULL PRIMARY KEY, -- primary key column
     ename   [NVARCHAR](10) NOT NULL,  -- name employee
     job     [NVARCHAR](9) NOT NULL      -- employee work
-    mgr     [INT] NOT NULL              -- code employee boss
+    mgr     INT NOT NULL              -- code employee boss
     hiredate    [date]                  -- contract date
-    sal     [INT](7, 2)                 -- salary mothly
-    comm    [INT](7, 2)                 -- Commision
-    detpno  [INT](2)                    -- code employee
+    sal     numeric(7, 2)                 -- salary mothly
+    comm    numeric(7, 2)            -- Commision
+    detpno  INT                    -- code employee
     -- specify more columns here
 );
 GO
